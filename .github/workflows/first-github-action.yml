@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Print Greeting
         run: echo "Hello world"
-      - name: Print GoodBye 
-        run: echo "Good Bye"
+      - name: Run Multiline shell script 
+        run: |
+            echo "First output"
+            echo "Second output"
